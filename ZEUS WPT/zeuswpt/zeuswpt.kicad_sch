@@ -1,5 +1,33 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5cf66b0a-87d0-446b-be51-c027bf0c3111")
+	(paper "A4")
+	(lib_symbols)
+	(text "4/8/2024"
+		(exclude_from_sim no)
+		(at 211.836 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "501de660-b961-4d57-bc7c-b157fca278ca")
+	)
+	(text "ZEUS WPT Schematic\n"
+		(exclude_from_sim no)
+		(at 197.358 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca1f542d-dc02-463a-87d0-9ce2ba13026d")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
