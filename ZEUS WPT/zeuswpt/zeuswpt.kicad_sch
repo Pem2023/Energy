@@ -4,7 +4,934 @@
 	(generator_version "8.0")
 	(uuid "5cf66b0a-87d0-446b-be51-c027bf0c3111")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Converter_DCDC:Ag9905LP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Ag9905LP"
+				(at 10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_Silvertel_Ag99xxLP_THT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Regulated 7W DC/DC PoE converter IEEE 802.3af, 36V-57V input, +5V Output Voltage, LP-DIL-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Silvertel isolated isolation dc-dc converter transformer power-over-ethernet over temperature protection short-circuit protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*Silvertel*Ag99xxLP*THT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ag9905LP_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ag9905LP_1_1"
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF_Amplifier:BGA2867"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BGA2867"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at -1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BGA2867.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MMIC wideband amplifier, DC-2.2GHz, +26.4dB @ 2150MHz, 5V, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF GAIN BLOCK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BGA2867_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BGA2867_1_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 3.81) hide
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 3.81) hide
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 181.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739c54b4-2d7d-4f36-9832-6add67f49bda")
+	)
+	(junction
+		(at 93.98 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf47c258-ff16-4518-b331-8c357c23a240")
+	)
+	(junction
+		(at 217.17 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddb55b2-7f01-40b0-b24c-dee8ee14e9f3")
+	)
+	(wire
+		(pts
+			(xy 217.17 53.34) (xy 231.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d6f8aa-6153-4059-9a1b-7fbd41d7ad7b")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 93.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198e548a-1310-4596-a918-3de87a62ae88")
+	)
+	(wire
+		(pts
+			(xy 21.59 101.6) (xy 54.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3374544d-32f2-4076-a40b-2ca3c71acb15")
+	)
+	(wire
+		(pts
+			(xy 80.01 44.45) (xy 80.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3433aacc-44d4-4aea-89ac-d57699252567")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 93.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350f9d58-1cf7-496e-bb52-15543c0e6b8b")
+	)
+	(wire
+		(pts
+			(xy 217.17 20.32) (xy 137.16 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d49ae5-013a-4290-8a86-b8837e10117f")
+	)
+	(bus
+		(pts
+			(xy 20.32 88.9) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429ae885-65b5-4768-a911-4bad7b6fbe9a")
+	)
+	(wire
+		(pts
+			(xy 217.17 53.34) (xy 217.17 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f5b926-ecba-4514-8811-a88cbc1086e4")
+	)
+	(wire
+		(pts
+			(xy 181.61 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6c3e58-ddf9-4f3a-86eb-8ab774a9c3c9")
+	)
+	(wire
+		(pts
+			(xy 226.06 114.3) (xy 231.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5658df9c-0a6a-4126-af93-1fb198ed8fa9")
+	)
+	(wire
+		(pts
+			(xy 226.06 69.85) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e68d570-1752-4474-92e4-1eecb9142ac8")
+	)
+	(wire
+		(pts
+			(xy 210.82 64.77) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a19e86-7e31-4b55-8b3f-b5c2648ee7dc")
+	)
+	(wire
+		(pts
+			(xy 181.61 52.07) (xy 181.61 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d7cdc4-4830-471c-a953-54e0859a78e1")
+	)
+	(wire
+		(pts
+			(xy 20.32 80.01) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75039526-c23f-4504-a27a-5d99cd8ed097")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 190.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1e9044-feb6-499e-96d9-9327e7d50a0b")
+	)
+	(wire
+		(pts
+			(xy 19.05 59.69) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b58cfe7-a291-4c26-836e-17627ba26d12")
+	)
+	(wire
+		(pts
+			(xy 226.06 69.85) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5eb852-4747-4a98-8d21-06c2d9c3b4eb")
+	)
+	(wire
+		(pts
+			(xy 19.05 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f7f9a8-4624-4794-998a-73b6b5cd65bc")
+	)
+	(wire
+		(pts
+			(xy 93.98 31.75) (xy 123.19 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95256421-d074-4e45-af5d-4d9203a6f83a")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 88.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5887b90-3596-4dcf-913b-2bc72c5c30c2")
+	)
+	(wire
+		(pts
+			(xy 148.59 31.75) (xy 181.61 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d9f220-40a5-4272-bd4e-987e9ae54185")
+	)
+	(wire
+		(pts
+			(xy 19.05 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ec1853-4ed8-434a-85e7-86020cfb4592")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b520931e-aca4-4903-b551-1636bb74eb33")
+	)
+	(wire
+		(pts
+			(xy 137.16 20.32) (xy 137.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac8732a-38a8-4443-bcd8-6408a23bbd9f")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 217.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedd07b3-0f39-48e0-a39d-e94fd697af65")
+	)
+	(wire
+		(pts
+			(xy 80.01 25.4) (xy 52.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23762ee-b442-472a-adaf-fa29249c46b6")
+	)
+	(bus
+		(pts
+			(xy 19.05 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cff08d-7231-4b90-b875-eedc37b72db1")
+	)
+	(wire
+		(pts
+			(xy 54.61 101.6) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd91d289-3e6f-44a7-82ee-2de23aca3a51")
+	)
+	(rectangle
+		(start 41.91 130.81)
+		(end 69.85 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12d1ccb8-a930-4175-a3bd-e3e5aedc4e4a)
+	)
+	(rectangle
+		(start 231.14 38.1)
+		(end 267.97 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bba5572-32a1-48f4-94e8-590d7fb55994)
+	)
+	(rectangle
+		(start 123.19 27.94)
+		(end 148.59 35.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88648056-6c2f-43c4-ab02-58caac62d0be)
+	)
+	(rectangle
+		(start 76.708 131.064)
+		(end 102.108 145.034)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e4838e6-d132-4a1c-9098-b06de2808d62)
+	)
+	(text "Cooling System"
+		(exclude_from_sim no)
+		(at 89.662 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01595b1c-dd24-4950-b35f-a922e8c14d84")
+	)
+	(text "EPS \n"
+		(exclude_from_sim no)
+		(at 37.338 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3968ef9b-6600-4a19-9c32-d53d9994a48f")
+	)
 	(text "4/8/2024"
 		(exclude_from_sim no)
 		(at 211.836 193.294 0)
@@ -15,6 +942,26 @@
 		)
 		(uuid "501de660-b961-4d57-bc7c-b157fca278ca")
 	)
+	(text "Feedback Loop\n"
+		(exclude_from_sim no)
+		(at 136.144 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74641a58-46fb-469e-bd4d-c40354808b61")
+	)
+	(text "50VDC PCDU Power Bus"
+		(exclude_from_sim no)
+		(at 35.814 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bddc3f22-a49d-4e51-8551-01fa83b334e7")
+	)
 	(text "ZEUS WPT Schematic\n"
 		(exclude_from_sim no)
 		(at 197.358 189.738 0)
@@ -24,6 +971,257 @@
 			)
 		)
 		(uuid "ca1f542d-dc02-463a-87d0-9ce2ba13026d")
+	)
+	(text "Thermoelectric Generator"
+		(exclude_from_sim no)
+		(at 55.88 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5a89d5d-4b8d-4cdc-b9a2-7913c9ea1473")
+	)
+	(text "Phased Arrays (x12)"
+		(exclude_from_sim no)
+		(at 249.428 84.582 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "f431fdef-3bc5-43ab-b191-bade91e22bae")
+	)
+	(symbol
+		(lib_id "RF_Amplifier:BGA2867")
+		(at 82.55 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70bef533-200c-4a93-b49e-31424d669a72")
+		(property "Reference" "U2"
+			(at 70.612 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WVA-44603LN+"
+			(at 72.136 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BGA2867.pdf"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MMIC wideband amplifier, DC-2.2GHz, +26.4dB @ 2150MHz, 5V, SOT-363"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0fbd651b-41cd-492a-b722-7620ba7bf007")
+		)
+		(pin "6"
+			(uuid "dba34574-1c3c-4f81-b02f-36fd8eefc064")
+		)
+		(pin "3"
+			(uuid "00708d1c-32b0-480e-8d90-ed54ab098888")
+		)
+		(pin "5"
+			(uuid "9cf9d9de-02a6-460e-8a12-bfe637c24ff7")
+		)
+		(pin "1"
+			(uuid "b5da4f3d-9f81-4c2c-a8e8-b0540cae37f3")
+		)
+		(pin "2"
+			(uuid "6cd38ae1-f868-4c5b-b28b-3111a2403716")
+		)
+		(instances
+			(project ""
+				(path "/5cf66b0a-87d0-446b-be51-c027bf0c3111"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83651008-3e57-4176-b55e-c5155f1467ae")
+		(property "Reference" "#PWR01"
+			(at 52.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11f3e1ab-8e4b-4ffd-a748-1c081b1b421e")
+		)
+		(instances
+			(project ""
+				(path "/5cf66b0a-87d0-446b-be51-c027bf0c3111"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:Ag9905LP")
+		(at 200.66 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86f55f0-efa6-464f-ac50-a0b4708a3891")
+		(property "Reference" "U1"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSC5-2805S"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Silvertel_Ag99xxLP_THT"
+			(at 200.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Regulated 7W DC/DC PoE converter IEEE 802.3af, 36V-57V input, +5V Output Voltage, LP-DIL-8"
+			(at 200.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "314e3f04-26c5-4a35-bb41-eee6cf5b8fb4")
+		)
+		(pin "8"
+			(uuid "13aa6a5e-dd62-49a4-b407-4359b4f38aba")
+		)
+		(pin "7"
+			(uuid "6b1bdfb4-a098-4c85-a8ca-31404a923c38")
+		)
+		(pin "3"
+			(uuid "2aabe515-57c2-4036-ba55-435fbc59c6f1")
+		)
+		(pin "5"
+			(uuid "72778a5d-6cb0-4d77-8cac-574f7d7c6aed")
+		)
+		(pin "6"
+			(uuid "3e742687-581a-489c-b1da-17cd90442320")
+		)
+		(pin "1"
+			(uuid "fe168607-514d-4379-94d1-7df35893cda8")
+		)
+		(pin "2"
+			(uuid "b8133a61-98c4-471c-b54d-2f933c477ea3")
+		)
+		(instances
+			(project ""
+				(path "/5cf66b0a-87d0-446b-be51-c027bf0c3111"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
