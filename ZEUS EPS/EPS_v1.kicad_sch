@@ -860,6 +860,12 @@
 		(uuid "1eff624c-a29e-4f2b-9cbe-47b557a4c0aa")
 	)
 	(junction
+		(at 398.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208ecac4-796e-48a9-8d66-3bae2f024550")
+	)
+	(junction
 		(at 227.33 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -876,6 +882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a991e4-9127-4c4d-a906-904cc382624b")
+	)
+	(junction
+		(at 345.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42fde1fb-7927-43d8-a58e-fbafd11a0623")
 	)
 	(junction
 		(at 189.23 115.57)
@@ -1208,16 +1220,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 119.38) (xy 389.89 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325faa50-b619-4d7f-9238-9d5ab6da75e8")
-	)
-	(wire
-		(pts
 			(xy 87.63 118.11) (xy 87.63 130.81)
 		)
 		(stroke
@@ -1276,6 +1278,26 @@
 			(type default)
 		)
 		(uuid "3f073622-3461-4b4b-af2c-826f0d6052a1")
+	)
+	(wire
+		(pts
+			(xy 375.92 119.38) (xy 398.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d056d8-8d73-4fc5-a4ca-5bcc73d4333e")
+	)
+	(wire
+		(pts
+			(xy 345.44 119.38) (xy 345.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4376dc89-0fb4-4094-a778-23dd327e963c")
 	)
 	(wire
 		(pts
@@ -1574,13 +1596,23 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 119.38) (xy 346.71 119.38)
+			(xy 344.17 119.38) (xy 345.44 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7338c8b8-d106-4362-8aa4-204cb484e2f7")
+	)
+	(wire
+		(pts
+			(xy 375.92 129.54) (xy 398.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e6fe71-34db-4972-96aa-21299ac624b3")
 	)
 	(wire
 		(pts
@@ -1706,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 69.85) (xy 344.17 69.85)
+			(xy 398.78 69.85) (xy 344.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 119.38) (xy 389.89 69.85)
+			(xy 398.78 119.38) (xy 398.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1888,6 +1920,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 119.38) (xy 365.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96d5fe1-2e32-4401-84de-2b3d8efc54f9")
+	)
+	(wire
+		(pts
 			(xy 344.17 69.85) (xy 334.01 69.85)
 		)
 		(stroke
@@ -1916,16 +1958,6 @@
 			(type default)
 		)
 		(uuid "b0852c41-5cf6-4c7b-92f6-465fc9ed9483")
-	)
-	(wire
-		(pts
-			(xy 346.71 109.22) (xy 346.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b551d8cf-93f2-40da-92a8-679c3055efbb")
 	)
 	(wire
 		(pts
@@ -2140,6 +2172,16 @@
 		)
 		(uuid "dddcfc18-9812-4c87-8410-39465fb26d14")
 	)
+	(wire
+		(pts
+			(xy 398.78 119.38) (xy 398.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1796d4d-c8d8-4f10-88d4-9da1fffa3899")
+	)
 	(polyline
 		(pts
 			(xy 289.56 101.6) (xy 311.15 101.6)
@@ -2265,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 129.54) (xy 365.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f303521f-589b-4220-ad11-5d0e6bebe610")
+	)
+	(wire
+		(pts
 			(xy 242.57 154.94) (xy 256.54 154.94)
 		)
 		(stroke
@@ -2282,16 +2334,6 @@
 			(type default)
 		)
 		(uuid "f50fd1a5-5a02-4784-aa21-3c6f79d647ea")
-	)
-	(wire
-		(pts
-			(xy 353.06 109.22) (xy 346.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6251f91-a11f-4382-937e-c4860ac86a14")
 	)
 	(wire
 		(pts
@@ -2424,18 +2466,6 @@
 		(uuid 231267e9-fb82-4be6-8cd0-9fcb5a9a9df7)
 	)
 	(rectangle
-		(start 34.29 168.91)
-		(end 48.26 181.61)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 26e377e6-6033-4280-962d-975698517412)
-	)
-	(rectangle
 		(start 35.052 27.432)
 		(end 64.262 42.672)
 		(stroke
@@ -2484,8 +2514,8 @@
 		(uuid 3bc39eda-9bf6-44b9-8ad4-98ffaade8c8d)
 	)
 	(rectangle
-		(start 34.29 130.81)
-		(end 48.26 143.51)
+		(start 33.528 112.776)
+		(end 47.498 125.476)
 		(stroke
 			(width 0)
 			(type default)
@@ -2496,8 +2526,8 @@
 		(uuid 3bd494e9-db21-44ac-a56b-452365f5784a)
 	)
 	(rectangle
-		(start 34.29 156.21)
-		(end 48.26 168.91)
+		(start 33.528 138.176)
+		(end 47.498 150.876)
 		(stroke
 			(width 0)
 			(type default)
@@ -2580,8 +2610,8 @@
 		(uuid 6ab0d647-6bb2-48a3-a061-91050d5be259)
 	)
 	(rectangle
-		(start 33.02 90.17)
-		(end 46.99 102.87)
+		(start 33.528 94.996)
+		(end 47.498 107.696)
 		(stroke
 			(width 0)
 			(type default)
@@ -2616,8 +2646,8 @@
 		(uuid 8418882d-38e5-43a1-a234-6b9c77ab8155)
 	)
 	(rectangle
-		(start 33.02 77.47)
-		(end 46.99 90.17)
+		(start 33.528 82.296)
+		(end 47.498 94.996)
 		(stroke
 			(width 0)
 			(type default)
@@ -2712,8 +2742,8 @@
 		(uuid a9dd719b-f950-43be-8e63-ae57c430b84b)
 	)
 	(rectangle
-		(start 41.402 238.252)
-		(end 70.612 253.492)
+		(start 42.672 239.522)
+		(end 71.882 254.762)
 		(stroke
 			(width 0)
 			(type default)
@@ -2736,8 +2766,8 @@
 		(uuid b545219b-d8c9-4df1-9a7c-078a7dcaebcb)
 	)
 	(rectangle
-		(start 34.29 143.51)
-		(end 48.26 156.21)
+		(start 33.528 125.476)
+		(end 47.498 138.176)
 		(stroke
 			(width 0)
 			(type default)
@@ -2760,8 +2790,8 @@
 		(uuid c29f2344-b643-4e72-b3cc-765a0a0e2ee1)
 	)
 	(rectangle
-		(start 33.02 64.77)
-		(end 46.99 77.47)
+		(start 33.528 69.596)
+		(end 47.498 82.296)
 		(stroke
 			(width 0)
 			(type default)
@@ -2770,18 +2800,6 @@
 			(type none)
 		)
 		(uuid c44cff24-440a-419a-9c09-7eb514f37732)
-	)
-	(rectangle
-		(start 33.02 102.87)
-		(end 46.99 115.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c848ba23-9e88-4f13-bfc1-5a2e37ad3463)
 	)
 	(rectangle
 		(start 147.32 67.31)
@@ -2978,7 +2996,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 41.402 137.414 0)
+		(at 40.64 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3018,7 +3036,7 @@
 	)
 	(text "Solar Array Drive Mechanism"
 		(exclude_from_sim no)
-		(at 55.88 246.38 0)
+		(at 57.15 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,9 +3044,9 @@
 		)
 		(uuid "283e87fb-f851-4ff7-819d-0f01fc74b908")
 	)
-	(text "Stellar Batt\n22.7 - 37.8V\n\n36.9 during Cycling operations"
+	(text "STELLAR Batt (x2)\n22.7 - 37.8V\n\n36.9 during Cycling operations"
 		(exclude_from_sim no)
-		(at 357.632 114.046 0)
+		(at 359.918 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,7 +3088,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 40.132 96.774 0)
+		(at 40.64 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,7 +3140,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 41.402 162.814 0)
+		(at 40.64 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3216,7 +3234,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 41.402 150.114 0)
+		(at 40.64 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3244,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 40.132 71.374 0)
+		(at 40.64 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3244,16 +3262,6 @@
 			(justify left)
 		)
 		(uuid "9093969d-b215-46f0-aa93-7fcd7690baa1")
-	)
-	(text "Solar panels"
-		(exclude_from_sim no)
-		(at 41.402 175.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "94c77427-4227-44c3-aa6b-bcc03196119b")
 	)
 	(text "EPS Schematic"
 		(exclude_from_sim no)
@@ -3275,7 +3283,7 @@
 		)
 		(uuid "ada7d134-8588-4272-88d9-b7dc1a60bf0a")
 	)
-	(text "28V Unregulated"
+	(text "28V Regulated"
 		(exclude_from_sim no)
 		(at 211.836 152.908 0)
 		(effects
@@ -3285,16 +3293,6 @@
 			(justify left)
 		)
 		(uuid "b300a4c4-5554-4d4c-aeb5-a35ad87377a0")
-	)
-	(text "Solar panels"
-		(exclude_from_sim no)
-		(at 40.132 109.474 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c56f924b-6df3-462c-9c45-227657226b47")
 	)
 	(text "High Voltage Power Distribution Unit\n·6LCL ·38A\n·1200W"
 		(exclude_from_sim no)
@@ -3338,6 +3336,17 @@
 			(justify left)
 		)
 		(uuid "d7b47669-73f3-4328-ac55-e4aed8856d4c")
+	)
+	(text "Secondary Battery\n\nNom. 4.2V\n\nStandard. 3.63V\nDischarge : 2.5V\n"
+		(exclude_from_sim no)
+		(at 362.966 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d84c5c3b-0ece-47c3-8c90-a5201ad86d42")
 	)
 	(text "50Vdc Unregulated"
 		(exclude_from_sim no)
@@ -3437,7 +3446,7 @@
 	)
 	(text "Solar panels"
 		(exclude_from_sim no)
-		(at 40.132 84.074 0)
+		(at 40.64 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3506,6 +3515,76 @@
 			(project ""
 				(path "/ee8e781a-446c-4690-953b-39a77a18cf33"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 370.84 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20a8f99d-eb6f-475b-8f07-dc98656cade2")
+		(property "Reference" "BT2"
+			(at 372.872 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "StellarBatt"
+			(at 371.5384 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.316 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.316 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 370.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e9cbdb4-ace3-45d7-82ac-5ff9b340c9e1")
+		)
+		(pin "1"
+			(uuid "0b7cc04b-8df8-4d53-864c-727fc146efb7")
+		)
+		(instances
+			(project "EPS_v1"
+				(path "/ee8e781a-446c-4690-953b-39a77a18cf33"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -3879,7 +3958,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 353.06 114.3 0)
+		(at 370.84 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3887,7 +3966,7 @@
 		(dnp no)
 		(uuid "dc0f945c-7c5b-4652-aaa0-3bd9e555b1b4")
 		(property "Reference" "BT1"
-			(at 359.156 107.188 0)
+			(at 372.618 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3975,7 @@
 			)
 		)
 		(property "Value" "StellarBatt"
-			(at 356.87 114.9984 0)
+			(at 371.5384 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 112.776 90)
+			(at 369.316 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 353.06 112.776 90)
+			(at 369.316 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +4003,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 353.06 114.3 0)
+			(at 370.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
